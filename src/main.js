@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App'
+import http from './utils/request'
+import {showErrorMessage} from './utils/message'
+Vue.prototype.$http = http
+Vue.prototype.$err = showErrorMessage
 
 Vue.config.productionTip = false
 

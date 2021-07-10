@@ -1,9 +1,16 @@
 {
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+				// uni-ui 规则如下配置
+				"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "黑马优购"
+				"navigationBarTitleText": "澳创优购"
 			}
 		},
 		{
@@ -21,7 +28,7 @@
 		{
 			"path": "pages/my/my",
 			"style": {
-				"navigationBarTitleText": "我的"
+				"navigationBarTitleText": "个人中心"
 			}
 		},
 		{
@@ -33,9 +40,9 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "黑马优购",
-		"navigationBarBackgroundColor": "#C00000",
-		"backgroundColor": "#fff"
+		"navigationBarTitleText": "澳创优购",
+		"navigationBarBackgroundColor": "#ff4747",
+		"backgroundColor": "#8df"
 	},
 	"tabBar": {
 		"color": "#000",
@@ -61,12 +68,31 @@
 			},
 			{
 				"pagePath": "pages/my/my",
-				"text": "我的",
+				"text": "个人中心",
 				"iconPath": "/static/tabs/icon_home@3x.png",
 				"selectedIconPath": "/static/tabs/icon_home_active@3x.png"
 			}
 		]
-	}
+	},
+	"subPackages":[
+		{
+			"root": "pages_sub1",
+			"pages":[
+				{
+					"path":"product-list/product-list",
+					"style":{
+						"navigationBarTitleText":"商品列表"
+					}
+				},
+				{
+					"path":"product-detail/product-detail",
+					"style":{
+						"navigationBarTitleText":"商品详情"
+					}
+				}
+			]
+		}
+	]
 	
 		
 }

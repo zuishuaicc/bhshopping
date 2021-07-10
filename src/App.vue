@@ -14,4 +14,10 @@
 
 <style>
 	/*每个页面公共css */
+	.search-box {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+}
 </style>

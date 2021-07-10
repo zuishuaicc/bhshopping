@@ -1089,6 +1089,11 @@
     "@babel/types" "^7.3.3"
     vue-template-compiler "^2.6.10"
 
+"@dcloudio/uni-ui@1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@dcloudio/uni-ui/-/uni-ui-1.2.10.tgz#865ebabc0dcdc986740e684ccb640e3ab5ca9b62"
+  integrity sha512-IIcy8HYvSt97AaqideSQSHcXR0daoa1ay4IfSLMNf4CTid5u0Lxx4SdzQwYWGDeUUbKPtQ7CSBPRqN0LmXRsFQ==
+
 "@dcloudio/vue-cli-plugin-hbuilderx@^2.0.0-31920210609001":
   version "2.0.0-31920210609001"
   resolved "https://registry.nlark.com/@dcloudio/vue-cli-plugin-hbuilderx/download/@dcloudio/vue-cli-plugin-hbuilderx-2.0.0-31920210609001.tgz?cache=0&sync_timestamp=1624507219003&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40dcloudio%2Fvue-cli-plugin-hbuilderx%2Fdownload%2F%40dcloudio%2Fvue-cli-plugin-hbuilderx-2.0.0-31920210609001.tgz#620b02c86de642bc68230c35992ab9d05d15408e"
@@ -10070,11 +10075,6 @@ unbox-primitive@^1.0.1:
     has-bigints "^1.0.1"
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
-
-uni-ui@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/uni-ui/-/uni-ui-1.0.0.tgz#710ad7be190a69163deb3ea2677a4cd6eb0dd50b"
-  integrity sha512-NDN1mfZhMa0FCnEt3vyqBcNUCHcz+At2+OgcPakCwm3SsXeKZ8Qk7u60CpxqVmhnk14jhgJdxgtCpwx1yW96VQ==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
