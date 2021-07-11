@@ -89,6 +89,12 @@
 					"style":{
 						"navigationBarTitleText":"商品详情"
 					}
+				},
+				{
+					"path":"search/search",
+					"style":{
+						"navigationBarTitleText":"搜索页面"
+					}
 				}
 			]
 		}

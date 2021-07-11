@@ -2,7 +2,7 @@
   <view>
     <!-- 搜索框 -->
     <view class="search-box">
-      <my-search></my-search>
+      <my-search @click="clickSearchHandle"></my-search>
     </view>
     <!-- 轮播图 -->
     <swiper autoplay indicator-dots interval='1500' circular class="top-swiper" >
@@ -114,6 +114,12 @@ export default {
       console.log(query);
       uni.navigateTo({
         url:`/pages_sub1/product-list/product-list?${query}`
+      })
+    },
+    //点击搜索框执行的函数
+    clickSearchHandle(){
+      uni.navigateTo({
+        url:'/pages_sub1/search/search'
       })
     }
   }
